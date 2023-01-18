@@ -10,7 +10,9 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="flex flex-col min-h-screen">
+      <body className="flex flex-col min-h-screen bg-black overflow-hidden">
+        {/* <body className="flex flex-col min-h-screen"> */}
+        {/* <body> */}
         <Navbar />
         {children}
         <Footer />
