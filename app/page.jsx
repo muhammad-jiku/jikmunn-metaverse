@@ -1,3 +1,4 @@
+import About from '@/src/components/About/About';
 import Hero from '@/src/components/Hero/Hero';
 import Navbar from '@/src/components/Navbar/Navbar';
 import React from 'react';
@@ -8,6 +9,7 @@ const Home = () => {
     //   <Navbar />
     <div>
       <Hero />
+      <About />
     </div>
     // </div>
   );
