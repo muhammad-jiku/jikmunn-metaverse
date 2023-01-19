@@ -2,6 +2,7 @@ import About from '@/src/components/About/About';
 import Explore from '@/src/components/Explore/Explore';
 import GetStarted from '@/src/components/GetStarted/GetStarted';
 import Hero from '@/src/components/Hero/Hero';
+import Insights from '@/src/components/Insights/Insights';
 import Navbar from '@/src/components/Navbar/Navbar';
 import WhatsNew from '@/src/components/WhatsNew/WhatsNew';
 import World from '@/src/components/World/World';
@@ -18,6 +19,7 @@ const Home = () => {
       <GetStarted />
       <WhatsNew />
       <World />
+      <Insights />
     </div>
     // </div>
   );

@@ -1,10 +1,37 @@
+'use client';
+
+import { motion } from 'framer-motion';
+
+import { staggerContainer } from '@/src/utils/motion';
+import styles from '../../styles/index.js';
+import { insights } from '../../constants/index.js';
+
 import React from 'react';
+import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
+import InsightCard from '../InsightCard/InsightCard';
 
 const Insights = () => {
   return (
-    <div>
-      <h1>Insights</h1>
-    </div>
+    <section className={`${styles.paddings} relative z-10`}>
+      <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}
+      >
+        <TypingText title="| Insight" textStyles="text-center" />
+        <TitleText
+          title={<>Insight about metaverse</>}
+          textStyles="text-center"
+        />
+        <div className="mt-[50px] flex flex-col gap-[30px]">
+          {insights.map((item, index) => (
+            <InsightCard key={`insight-${index}`} {...item} index={index + 1} />
+          ))}
+        </div>
+      </motion.div>
+    </section>
   );
 };
 
