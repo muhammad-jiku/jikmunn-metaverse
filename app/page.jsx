@@ -3,6 +3,7 @@ import Explore from '@/src/components/Explore/Explore';
 import GetStarted from '@/src/components/GetStarted/GetStarted';
 import Hero from '@/src/components/Hero/Hero';
 import Navbar from '@/src/components/Navbar/Navbar';
+import WhatsNew from '@/src/components/WhatsNew/WhatsNew';
 import React from 'react';
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Explore />
       <GetStarted />
+      <WhatsNew />
     </div>
     // </div>
   );

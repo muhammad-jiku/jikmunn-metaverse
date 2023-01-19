@@ -11,6 +11,7 @@ export default function RootLayout({ children }) {
       */}
       <head />
       {/* <body className="flex flex-col min-h-screen bg-black"> */}
+      {/* <body className="flex flex-col min-h-screen bg-black overflow-hidden"> */}
       <body className="flex flex-col min-h-screen bg-black overflow-x-hidden">
         {/* <body className="flex flex-col min-h-screen"> */}
         {/* <body> */}
