@@ -1,5 +1,6 @@
 import About from '@/src/components/About/About';
 import Explore from '@/src/components/Explore/Explore';
+import Feedback from '@/src/components/Feedback/Feedback';
 import GetStarted from '@/src/components/GetStarted/GetStarted';
 import Hero from '@/src/components/Hero/Hero';
 import Insights from '@/src/components/Insights/Insights';
@@ -20,6 +21,7 @@ const Home = () => {
       <WhatsNew />
       <World />
       <Insights />
+      <Feedback />
     </div>
     // </div>
   );
