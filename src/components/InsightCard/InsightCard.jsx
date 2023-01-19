@@ -1,7 +1,10 @@
 'use client';
 import React from 'react';
 
+//  external import
 import { motion } from 'framer-motion';
+
+//  internal import
 import { fadeIn } from '@/src/utils/motion';
 
 const InsightCard = ({ imgUrl, title, subtitle, index }) => {

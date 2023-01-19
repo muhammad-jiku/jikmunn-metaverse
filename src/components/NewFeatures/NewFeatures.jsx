@@ -1,4 +1,7 @@
+'use client';
 import React from 'react';
+
+//  internal import
 import styles from '../../styles/index.js';
 
 const NewFeatures = ({ imgUrl, title, subtitle }) => {

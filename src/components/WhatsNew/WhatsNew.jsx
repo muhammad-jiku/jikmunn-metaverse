@@ -1,12 +1,14 @@
 'use client';
 import React from 'react';
 
+//  external import
 import { motion } from 'framer-motion';
 
+//  internal imports
 import styles from '../../styles/index.js';
 import { newFeatures } from '../../constants/index.js';
-import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 import NewFeatures from '../NewFeatures/NewFeatures';
+import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 import {
   fadeIn,
   planetVariants,

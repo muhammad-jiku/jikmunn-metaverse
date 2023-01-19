@@ -1,11 +1,12 @@
 'use client';
 import React from 'react';
+
+//  external import
 import { motion } from 'framer-motion';
 
+//  internal imports
 import styles from '../../styles/index.js';
-
 import { fadeIn, staggerContainer } from '@/src/utils/motion';
-
 import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 
 const World = () => {

@@ -1,10 +1,12 @@
 'use client';
 import React from 'react';
 
+//  external import
 import { motion } from 'framer-motion';
-import { socials } from '../../constants/index.js';
 
+//  internal imports
 import styles from '../../styles/index.js';
+import { socials } from '../../constants/index.js';
 import { footerVariants } from '@/src/utils/motion.js';
 
 const Footer = () => {

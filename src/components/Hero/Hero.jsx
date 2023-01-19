@@ -1,8 +1,10 @@
 'use client';
-
 import React from 'react';
+
+//  external import
 import { motion } from 'framer-motion';
 
+//  internal imports
 import styles from '../../styles/index.js';
 import { slideIn, staggerContainer, textVariant } from '../../utils/motion.js';
 

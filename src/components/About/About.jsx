@@ -1,10 +1,12 @@
 'use client';
 import React from 'react';
-import { TypingText } from '../CustomTexts/CustomTexts';
 
+//  external import
 import { motion } from 'framer-motion';
 
+//  internal imports
 import styles from '../../styles/index.js';
+import { TypingText } from '../CustomTexts/CustomTexts';
 import { fadeIn, staggerContainer } from '../../utils/motion.js';
 
 const About = () => {

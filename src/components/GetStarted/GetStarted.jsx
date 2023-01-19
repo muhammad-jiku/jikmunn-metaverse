@@ -1,13 +1,14 @@
 'use client';
 import React from 'react';
 
+//  external import
 import { motion } from 'framer-motion';
 
+//  internal imports
 import styles from '../../styles/index.js';
-import { startingFeatures } from '../../constants/index.js';
-
-import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 import StartSteps from '../StartSteps/StartSteps';
+import { startingFeatures } from '../../constants/index.js';
+import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 import {
   fadeIn,
   planetVariants,

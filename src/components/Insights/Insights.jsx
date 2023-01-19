@@ -1,14 +1,15 @@
 'use client';
+import React from 'react';
 
+//  external import
 import { motion } from 'framer-motion';
 
-import { staggerContainer } from '@/src/utils/motion';
+//  internal imports
 import styles from '../../styles/index.js';
 import { insights } from '../../constants/index.js';
-
-import React from 'react';
-import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
+import { staggerContainer } from '@/src/utils/motion';
 import InsightCard from '../InsightCard/InsightCard';
+import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 
 const Insights = () => {
   return (

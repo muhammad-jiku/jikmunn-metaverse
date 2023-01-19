@@ -1,12 +1,15 @@
 'use client';
 import React, { useState } from 'react';
+
+//  external import
 import { motion } from 'framer-motion';
 
+//  internal imports
 import styles from '../../styles/index.js';
-import { exploreWorlds } from '../../constants/index.js';
 import { staggerContainer } from '../../utils/motion.js';
-import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
+import { exploreWorlds } from '../../constants/index.js';
 import ExploreCard from '../ExploreCard/ExploreCard';
+import { TitleText, TypingText } from '../CustomTexts/CustomTexts';
 
 const Explore = () => {
   const [active, setActive] = useState('world-2');
